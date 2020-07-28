@@ -1,0 +1,64 @@
+.publicationOption{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    background-color: white;
+    padding: 0 0.7em;
+}
+.publicationOption h6{
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+}
+.publicationOption .title textarea{
+    width: 100%;
+    resize: none;
+    background-color: rgba(243,243,243, 1);
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: 0.9em;
+    outline: none;
+    border: 1px solid lavender;
+    padding-left: 10px;
+    margin-bottom: 1em;
+}
+.publicationOption .description textarea{
+    width: 100%;
+    background-color: rgba(243,243,243, 1);
+    border-radius: 5px;
+    padding-top: 10px;
+    font-size: 0.9em;
+    outline: none;
+    border: 1px solid lavender;
+    padding-left: 10px;
+    resize: none;
+}
+
+.publicationOption .buttons{
+    text-align: right;
+}
+.publicationOption .buttons a{
+    display: inline-block;
+    background-color: white;
+    text-transform: capitalize;
+    color: #006633;
+    text-decoration: none;
+    border: 1px solid #006633;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    margin-top: 1em;
+}
+.publicationOption .buttons a:hover{
+    background-color: #006633;
+    color: white;
+}
+.publicationOption .buttons .cancel-btn{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.publicationOption .buttons .save-btn{
+    color: green;
+    border: 1px solid green;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

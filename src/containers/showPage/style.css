@@ -1,0 +1,54 @@
+.showPage{
+    padding: 0 0em;
+    background: url(../../assets/images/shapes_and_assets_folder/File4_1_.png), url(../../assets/images/shapes_and_assets_folder/Mask\ Group\ 1.png);
+    background-size: contain;
+}
+.container{
+    padding: 0 2em;
+}
+.container .main{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+.white-empty-div{
+    width:20%;
+}
+.blogArea{
+    width: 50%;
+    box-shadow: 0px 10px 10px lavender;
+    padding: 0.9em;
+}
+.blogArea .text{
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+.imgContainer{
+    width: 100%;
+    height: 25em;
+    margin: 2em 0;
+}
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+}
+.blogArea h1{
+    font-weight: 400;
+    margin-bottom: 0.2em;
+}
+.blogArea h5{
+    font-weight: 400;
+    margin: 1.5em 0 0.5em;
+    font-size: 1em;
+}
+.blogArea .submittedBy{
+    opacity: 0.9;
+}
+.info-header{
+    color: #006633;
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 2em;
+}

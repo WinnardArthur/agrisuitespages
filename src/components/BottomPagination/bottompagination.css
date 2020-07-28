@@ -1,0 +1,38 @@
+.bottomPagination{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 20%;
+    margin: 4em auto;
+}
+.bottomPagination .column-1 h3{
+    font-size: 1.5em;
+    color: #006633;
+}
+.bottomPagination .column-1 .paginationLinks{
+    font-size: 1.2em;
+    color: #006633;
+    text-decoration: none;
+    margin: auto 0.2em;
+    font-weight: 500;
+}
+.bottomPagination .column-2 .paginationLinks{
+    font-size: 1.2em;
+    font-weight: 500;
+    display: block;
+    color: #006633;
+    text-decoration: none;
+}
+.bottomPagination .column-2 .fa-caret-right{
+    font-size: 1.4em;
+    margin-top: 0.2em;
+}
+
+
+
+
+
+
+
+
+

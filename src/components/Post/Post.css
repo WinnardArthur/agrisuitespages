@@ -1,0 +1,93 @@
+.index-page .row1{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+.index-page .imgContainer{
+    height: 26.5em;
+    width: 35em;
+}
+.index-page .imgContainer img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 3px 5px -3px rgba(0, 0, 0, 0.9);
+    position: relative;
+    z-index: 10;
+}
+.index-page .column-2{
+    background-color: #006633;
+    width: 40em;
+    margin-left: -6em;
+    height: 28em;
+    text-align: justify;
+    color: white;
+    border-radius: 3px;
+    z-index: 1;
+}
+.index-page .row1:nth-child(even) .column-2{
+    background-color: white;
+    color: #006633;
+    border: 1px solid #006633;
+}
+.index-page .column-2 .title{
+    margin-top: 0.5em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    margin-left: 3em;
+    text-align: center;
+    font-size: 2.5em;
+}
+.index-page .column-2 .message{
+    padding-left: 9.2em;
+    padding-right: 2em;
+    font-size: 0.9em;
+}
+.index-page .column-2 .icons{
+    margin: 2em 0em;
+}
+.index-page .column-2 .icons a{
+    background-color: white;
+    margin-right: 0.5em;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.index-page .column-2 .icons a:hover{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    
+}
+.index-page .row1:nth-child(even) .icons a{
+    background-color: #006633;
+    color: white;
+}
+.index-page .row1:nth-child(even) .icons a i{
+    color: white;
+}
+.index-page .column-2 .icons i{
+    font-size: 1.6em;
+    color: #006633
+}
+.index-page .column-2 .btn{
+    display: inline-block;
+    margin-top: 2em;
+    background-color: #006633;
+    color: white;
+    text-decoration: none;
+    background-color: mediumseagreen;
+    padding: 0.5em 1.2em;
+    border-radius: 2px;
+}

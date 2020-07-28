@@ -1,0 +1,14 @@
+.createPublication{
+    background-color: rgba(225, 225, 225, 1);
+    padding-right: 4em;   
+}
+.createPublication .body{
+    display: flex;
+    justify-content: space-between;
+}
+.createPublication .body .column-1{
+    width: 70%
+}
+.createPublication .body .column-2{
+    width: 26%;
+}
