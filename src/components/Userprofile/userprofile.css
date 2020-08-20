@@ -1,50 +1,57 @@
 .main{
-    width: 20%;
-    margin: 1em;
+    width: 100%;
+    padding: 0;
 }
 .userProfile{
     border: 1px solid gray;
-}
-.userProfile .greenbar{
-    width: 100%;
-    height: 2.4rem;
-    background-color: #006633;
+    padding: 0.3rem 0rem 0.3rem 0.7rem;
+    box-shadow: 0 0 15px -5px gray;
+    background: white;
 }
 .userProfile .imgContainer{
-    width: 40%;
-    margin: -1.2rem auto 0;
-    border: 1px solid rgb(100, 100, 100);
-    height: 6.5rem;
+    width: 100%;
+    margin: 0rem auto 0;
+    display: flex;
+    align-items: flex-start;
+    height: auto;
 }
 .userProfile .imgContainer img{
-    width: 100%;
-    height: 100%;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 0;
+    margin-right: 0.8rem;
 }
-.userProfile .profile-links{
-    margin-left: 0.7rem;
+.userProfile .imgContainer .text h2{
+    text-transform: capitalize;
+    font-weight: 400;
 }
-.userProfile .profile-links li{
-    list-style-type: none;
-    margin-bottom: 0.5rem;
+.userProfile .imgContainer .text h6{
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    font-weight: 400;
 }
-.userProfile .profile-links .list-item{
-    color: rgba(140,140,140, 1);
-    font-size: 1.1rem;
+.userProfile .imgContainer .text h6:nth-of-type(1){
+    margin-left: 0.5rem;
+}
+.userProfile .imgContainer .text h6:nth-of-type(2){
+    margin-bottom: 1rem;
+}
+.userProfile .imgContainer .text .settings{
     text-decoration: none;
-    font-weight: 600;
+    color: #006633;
+    border: 2px solid #006633;
+    border-radius: 25px;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.8rem;
 }
-.userProfile .faint-hr{
-    width: 100%;
-    background-color: rgba(230, 230, 230, 1);
-    height: 2px;
-    border: none;
-    margin-top: 0.7rem;
+.userProfile .imgContainer .text .settings:hover{
+    background: #006633;
+    color: white;
 }
 .userProfile .cardFooter{
-    margin: 0.5rem 0.8rem 0.8em;
+    margin: 1rem 0rem 0.8em;
 }
 .userProfile .cardFooter p{
-    text-align: center;
     margin-bottom: 0.5em;
 }
 .userProfile .cardFooter p .link{
@@ -55,38 +62,38 @@
 .userProfile .cardFooter div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
-.userProfile .cardFooter div .contact-link{
-    border: 1px solid #006633;
+.userProfile .cardFooter div .link{
     color: #006633;
     display: inline-block;
-    padding: 0.3rem 1rem;
+    padding: 0rem 0rem;
     text-decoration: none;
-    border-radius: 3px;
-    box-shadow: 0 -1px 1px 0px #006633;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 0.9rem;
 }
-.userProfile .cardFooter div .options-link{
+.userProfile .cardFooter div .link1{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.userProfile .cardFooter div p{
     color: #006633;
-    text-decoration: none;
-    display: block;
-    font-weight: 600;
+    font-weight: 500;
+    margin-right: 5rem;
 }
-.userProfile .thick-hr{
-    width: 100%;
-    margin-bottom: 2rem;
-    border:none;
-    background-color: black;
-    height: 1.5px;
+.main .add{
+    position: relative;
+    margin-bottom: 1.5rem;
 }
-.main .bottomImage{
+.main .add img{
     width: 100%;
-    height: 10rem;
-    border-radius: 5px;
-    margin-top: 0.2rem;
+    height: 350px;
 }
-.main .bottomImage img{
-    width: 100%;
-    height: 100%;
+.main .add h2{
+    position: absolute;
+    color: white;
+    font-size: 2.2rem;
+    bottom: 8%;
+    left: 38%;
 }

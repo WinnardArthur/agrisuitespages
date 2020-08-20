@@ -1,0 +1,56 @@
+.viewConnection .contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+.viewConnection .column1{
+    width: 19.5%;
+}
+.viewConnection .column2{
+    width: 56%;
+}
+.viewConnection .column2 .search-bar{
+    width: 100%;
+    border-radius: 25px;
+    padding: 1rem;
+    border: 1px solid lavender;
+    outline: none;
+}
+.viewConnection .column2 .message{
+    display: flex;
+    border: 1px solid gray;
+    padding: 0.2rem 0.5rem 0.2rem 0.2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+.viewConnection .column2 .message .col-1{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.viewConnection .column2 .message .col-1 .round-image{
+    width: 70px;
+    height: 70px;
+    margin-right: 0.5rem;
+}
+.viewConnection .column2 .message .col-1 h5{
+    font-size: 1.3rem;
+}
+.viewConnection .column2 .message .col-1 p{
+    font-size: 0.8rem;
+}
+.viewConnection .column2 .message .col-2 .message{
+    border: 1.5px solid #006633;
+    color: #006633;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.2rem 1rem;
+}
+.viewConnection .column2 .message .col-2 .message:hover{
+    background: #006633;
+    color: white;
+}
+.viewConnection .column3{
+    width: 19.5%;
+}

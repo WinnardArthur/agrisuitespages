@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import './userprofile.css'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './userprofile.css';
+import Groups from '../Groups/groups';
 
 
 class UserProfile extends Component {
@@ -8,31 +9,40 @@ class UserProfile extends Component {
         return (
             <div className="main">
                 <div className="userProfile">
-                    <div className="greenbar"></div>
                     <div className="imgContainer">
                         <img src={require("../../assets/images/shapes_and_assets_folder/profileimage.png")} alt="profile"/>
-                    </div>
-                    <ul className="profile-links">
-                        <li><Link to="#" className="list-item">Manage my network</Link></li>
-                        <li><Link to="#" className="list-item">Contacts</Link></li>
-                        <li><Link to="#" className="list-item">People | follow</Link></li>
-                        <li><Link to="#" className="list-item">Groups</Link></li>
-                        <li><Link to="#" className="list-item">Page</Link></li>
-                        <li><Link to="#" className="list-item">News Letter</Link></li>
-                        <li><Link to="#" className="list-item">Hastags</Link></li>
-                    </ul>
-                    <hr className="faint-hr"/>
-                    <div className="cardFooter">
-                        <p><Link to="#" className="link">Import contacts</Link></p>
-                        <div>
-                            <Link to="#" className="contact-link">Contact</Link>
-                            <Link to="#" className="options-link">More Options</Link>
+                        <div className="text">
+                            <h2>habass t</h2>
+                            <h6>Student</h6>
+                            <h6><i className="fa fa-map-marker"></i>Yaounde, Cameroon</h6>
+                            <p>
+                                <Link to="#" className="settings"><i className="fa fa-cog" style={{marginRight: "0.2rem"}}></i>settings</Link>
+                            </p>
                         </div>
                     </div>
-                    <hr className="thick-hr"/>
+                    <div className="cardFooter">
+                        <div>
+                            <Link to="#" className="link link1">Agriscore</Link>
+                            <p>64</p>
+                        </div>
+                        <div>
+                            <Link to="#" className="link">Connections</Link>
+                            <p>30</p>
+                        </div>
+                        <div>
+                            <Link to="#" className="link">Groups</Link>
+                            <p><i className="fa fa-caret-down" style={{marginLeft: "-6.2rem"}}></i></p>
+                        </div>
+                    </div>
                 </div>
-                <div className="bottomImage">
-                    <img src={require("../../assets/images/shapes_and_assets_folder/Training.png")} alt="training"/>
+                <div>
+                    <Groups/>
+                </div>
+                <div>
+                    <div className="add">
+                        <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} />
+                        <h2>Adds</h2>
+                    </div>
                 </div>
             </div>
         )

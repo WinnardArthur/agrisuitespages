@@ -5,6 +5,7 @@ import ShowPage from './containers/showPage';
 import Posts from './containers/Posts';
 import CreatePublication from './containers/CreatePublication';
 import ProfilePage from './containers/ProfilePage';
+import ViewConnection from './containers/ViewConnection';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/posts" component ={Posts} exact/>
         <Route path="/createpublication" component={CreatePublication} exact/>
         <Route path="/profilepage" component={ProfilePage}/>
+        <Route path="/viewconnections" component={ViewConnection} exact/>
       </div>
     </Router>
   );

@@ -8,7 +8,7 @@ class Invitation extends Component {
             <div className="invitation">
                 <div className="head">
                     <h5>Invitations</h5>
-                    <Link to="#">see all 12</Link>
+                    <Link to="#" className="see-all-link">see all 12</Link>
                 </div>
                 <div className="content">
                     <img src={require("../../assets/images/shapes_and_assets_folder/profileimage.png")} alt="profile"/>
