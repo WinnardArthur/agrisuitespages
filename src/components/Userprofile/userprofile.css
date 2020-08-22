@@ -31,38 +31,25 @@
     font-weight: 400;
 }
 .userProfile .imgContainer .text h6:nth-of-type(1){
-    margin-left: 0.5rem;
+    margin-left: 0.7rem;
+    font-size: 0.75rem;
 }
 .userProfile .imgContainer .text h6:nth-of-type(2){
     margin-bottom: 1rem;
-}
-.userProfile .imgContainer .text .settings{
-    text-decoration: none;
-    color: #006633;
-    border: 2px solid #006633;
-    border-radius: 25px;
-    padding: 0.1rem 0.5rem;
-    font-size: 0.8rem;
-}
-.userProfile .imgContainer .text .settings:hover{
-    background: #006633;
-    color: white;
+    font-size: 0.75rem;
 }
 .userProfile .cardFooter{
     margin: 1rem 0rem 0.8em;
 }
 .userProfile .cardFooter p{
     margin-bottom: 0.5em;
-}
-.userProfile .cardFooter p .link{
-    color: rgba(140,140,140, 1);
-    text-decoration: none;
     font-size: 0.95rem;
 }
 .userProfile .cardFooter div {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin: -0.3rem 0;
 }
 .userProfile .cardFooter div .link{
     color: #006633;
@@ -70,12 +57,16 @@
     padding: 0rem 0rem;
     text-decoration: none;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 .userProfile .cardFooter div .link1{
     color: gray;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
+}
+.userProfile .cardFooter div .fa-caret-down{
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
 }
 .userProfile .cardFooter div p{
     color: #006633;

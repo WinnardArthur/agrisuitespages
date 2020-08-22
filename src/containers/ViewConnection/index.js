@@ -19,21 +19,23 @@ class ViewConnection extends Component {
                         <UserProfile/>
                     </div>
                     <div className="column2">
-                        <div>
-                            {/* <TextField label="search" variant="outlined" className="search-bar"/> */}
-                            <input type="text" placeholder="search" className="search-bar"/>
+                        <div className="row-1">
+                            <h5>2000 connections</h5>
+                            <div className="search-bar"><i className="fa fa-search"></i><input type="text" placeholder="search connectins" /></div>
                         </div>
-                        <div>
+                        <div className="row-2">
                             {/* box 1 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
                             </div>
@@ -42,107 +44,133 @@ class ViewConnection extends Component {
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 3 */}
+                            </div>
+                            {/* box 3 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 4 */}
+                            </div>
+                            {/* box 4 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 5 */}
+                            </div>
+                            {/* box 5 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 6 */}
+                            </div>
+                            {/* box 6 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 7 */}
+                            </div>
+                            {/* box 7 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 8 */}
+                            </div>
+                            {/* box 8 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 9 */}
+                            </div>
+                            {/* box 9 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
-                            </div>{/* box 10 */}
+                            </div>
+                            {/* box 10 */}
                             <div className="message">
                                 <div className="col-1">
                                     <Avatar src={require("../../assets/images/shapes_and_assets_folder/tech-sample.jpg")} className="round-image"/>
                                     <div>
-                                        <h5>Warm Poultry</h5>
-                                        <p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
+                                        <h5>Marcel Nounbisi</h5>
+                                        <h6>Student</h6>
+                                        <p>Agriscore <span>25</span></p>
                                     </div>
                                 </div>
                                 <div className="col-2">
+                                    <i className="fa fa-ellipsis-h"></i>
                                     <Link to="#" className="message">Message</Link>
                                 </div>
                             </div>

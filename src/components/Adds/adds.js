@@ -7,15 +7,15 @@ class Adds extends Component {
         return (
             <div className="adds">
                 <Box className="add">
-                    <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} />
+                    <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} alt="adds"/>
                     <h2>Adds</h2>
                 </Box>
                 <Box className="add">
-                    <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} />
+                    <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} alt="adds"/>
                     <h2>Adds</h2>
                 </Box>
                 <Box className="add">
-                    <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} />
+                    <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} alt="adds"/>
                     <h2>Adds</h2>
                 </Box>
             </div>

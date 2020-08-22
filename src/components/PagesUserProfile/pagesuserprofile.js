@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './userprofile.css';
+import './pagesuserprofile.css'
 import Groups from '../Groups/groups';
 
 
-class UserProfile extends Component {
+class PagesUserProfile extends Component {
     render() {
         return (
-            <div className="main">
+            <div className="main  pages-user-profile">
                 <div className="userProfile">
                     <div className="imgContainer">
                         <img src={require("../../assets/images/shapes_and_assets_folder/profileimage.png")} alt="profile"/>
@@ -35,6 +35,9 @@ class UserProfile extends Component {
                     <Groups/>
                 </div>
                 <div>
+                    <Link to="#" className="create-btn"> {this.props.create} +</Link>
+                </div>
+                <div>
                     <div className="add">
                         <img src={require('../../assets/images/shapes_and_assets_folder/tech-sample2.jpg')} />
                         <h2>Adds</h2>
@@ -45,4 +48,4 @@ class UserProfile extends Component {
     }
 }
 
-export default UserProfile
+export default PagesUserProfile
