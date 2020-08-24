@@ -1,0 +1,63 @@
+.view-group .contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+.view-group .column1{
+    width: 19.5%;
+}
+.view-group .column2{
+    width: 60%;
+}
+.view-group .column3{
+    width: 19.5%;
+}
+.view-group .column2 .row-1{
+    border: 1px solid #006633;
+    padding: 0.4rem 0.5rem 0.8rem;
+}
+.view-group .column2 .row-1 h5{
+    color: #006633;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.view-group .column2 .search-bar{
+    width: 50%;
+    margin: -0.8rem auto 0;
+    position: relative;
+}
+.view-group .column2 .search-bar .fa-search{
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    color: gray;
+    font-size: 0.9rem;
+}
+.view-group .column2 .search-bar input{
+    border-radius: 25px;
+    padding: 0.8rem;
+    border: 1px solid silver;
+    outline: none;
+    padding-left: 2.5rem;
+    width: 82%;
+    display: block;
+    margin: 0 auto;
+}
+.view-group .column2 .search-bar input::placeholder{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+.view-group .column2 .search-bar input:focus{
+    border-color: #006633;
+    box-shadow: 0 0 1px #006633;
+}
+.view-group .column2 .row-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+}
+.view-group .column2 .row-2 >div{
+    margin-right: 1rem;
+    width: 30%;
+}

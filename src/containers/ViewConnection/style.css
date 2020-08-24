@@ -1,0 +1,101 @@
+.viewConnection .contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+.viewConnection .column1{
+    width: 19.5%;
+}
+.viewConnection .column2{
+    width: 56%;
+}
+.viewConnection .column2 .row-1{
+    border: 1px solid #006633;
+    padding: 0.2rem 0.5rem 0.6rem;
+}
+.viewConnection .column2 .row-1 h5{
+    color: #006633;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.viewConnection .column2 .search-bar{
+    width: 50%;
+    margin: -0.8rem auto 0;
+    position: relative;
+}
+.viewConnection .column2 .search-bar .fa-search{
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    color: gray;
+    font-size: 0.9rem;
+}
+.viewConnection .column2 .search-bar input{
+    border-radius: 25px;
+    padding: 0.7rem;
+    border: 1px solid silver;
+    outline: none;
+    padding-left: 2.5rem;
+    width: 82%;
+    display: block;
+    margin: 0 auto;
+}
+.viewConnection .column2 .search-bar input::placeholder{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+.viewConnection .column2 .search-bar input:focus{
+    border-color: #006633;
+    box-shadow: 0 0 1px #006633;
+}
+.viewConnection .column2 .row-2{
+    background-color: white;
+    padding-top: 1rem;
+}
+.viewConnection .column2 .message{
+    display: flex;
+    box-shadow: 0 0 8px lavender;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+.viewConnection .column2 .message .col-1{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.viewConnection .column2 .message .col-1 .round-image{
+    width: 80px;
+    height: 80px;
+    margin-right: 0.5rem;
+}
+.viewConnection .column2 .message .col-1 h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #006633;
+}
+.viewConnection .column2 .message .col-1 h6, p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: gray;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.viewConnection .column2 .message .col-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.viewConnection .column2 .message .col-2 .message{
+    border: 1px solid #006633;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    background: #006633;
+    margin-right: 0.5rem;
+}
+.viewConnection .column3{
+    width: 19.5%;
+}

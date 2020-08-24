@@ -1,0 +1,71 @@
+.invitation{
+    width: 100%;
+    box-shadow: 0 5px 5px lavender;
+    padding-bottom: 0.5rem;
+}
+.invitation .head{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.2rem 0.2rem;
+    border: 1px solid #006633;
+    align-items: flex-end;
+}
+.invitation .head h5{
+    font-size: 1.5rem;
+    color: #006633;
+    font-weight: 500;
+}
+.invitation .head .see-all-link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #006633;
+}
+.invitation .content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 1rem 0 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lavender;
+}
+.invitation .content div{
+    flex-basis: 50%;
+}
+.invitation .content img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.invitation .content .username{
+    color: #006633;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.invitation .content p{
+    color: gray;
+}
+.invitation .ignore-option{
+    color:gray;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.invitation .accept-option{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #006633;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 1px;
+    background: #006633;
+}
+.invitation .see-more-link{
+    display: block;
+    text-align: center;
+    color: #006633;
+    text-decoration: none;
+    margin-top: -1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
