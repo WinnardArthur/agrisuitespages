@@ -1,0 +1,15 @@
+.connected-profile .content{
+    width: 80%;
+    margin: 0 auto
+}
+.connected-profile .content .body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.connected-profile .content .main-content{
+    width: 70%;
+}
+.connected-profile .content .sidebar{
+    width: 28%;
+}

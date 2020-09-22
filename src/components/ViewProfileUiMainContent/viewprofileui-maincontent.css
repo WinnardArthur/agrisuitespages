@@ -1,0 +1,24 @@
+.viewprofileui-maincontent{
+    margin-top: 2rem;
+}
+.viewprofileui-maincontent hr{
+    height: 3px;
+    width: 100%;
+    background-color: #006633;
+    margin-bottom: 0.4rem;
+}
+.viewprofileui-maincontent .content-header .header-links{
+    display: inline-block;
+    text-decoration: none;
+    color: #006633;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.035rem;
+    margin: 0 1rem;
+}
+.viewprofileui-maincontent .content-header .header-links:first-child{
+    margin-left: 0;
+}
+.viewprofileui-maincontent .content-header .header-links:last-child{
+    margin-right: 0;
+}

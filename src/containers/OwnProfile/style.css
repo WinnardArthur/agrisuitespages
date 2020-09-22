@@ -1,0 +1,14 @@
+.own-profile .content{
+    width: 80%;
+    margin: 0 auto
+}
+.own-profile .content .body{
+    display: flex;
+    justify-content: space-between;
+}
+.own-profile .content .main-content{
+    width: 70%;
+}
+.own-profile .content .sidebar{
+    width: 28%;
+}
