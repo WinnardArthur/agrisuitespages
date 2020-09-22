@@ -1,0 +1,50 @@
+.viewprofileui-skills-interests{
+    border: 1px solid #ccc;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px lavender;
+}
+.viewprofileui-skills-interests .row-1{
+    border-bottom: 1px solid #ccc;
+    color: #006633;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.viewprofileui-skills-interests .row-2{
+    background-color: #006633;
+}
+.viewprofileui-skills-interests .row-2 .accordion{
+    border-bottom: 1px solid white;
+}
+.viewprofileui-skills-interests .row-2 .header-text{
+    color: white;
+    font-size: 1rem;
+}
+.viewprofileui-skills-interests .row-2 .details{
+    display: flex;
+    flex-direction: column;
+}
+.viewprofileui-skills-interests .row-2 .details .details-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.viewprofileui-skills-interests .row-2 .details .details-row:first-child{
+    margin-top: 1rem;
+}
+.viewprofileui-skills-interests .row-2 .details .details-row .details-column{
+    width: 12rem;
+}
+.viewprofileui-skills-interests .row-2 .details .details-row .details-column input{
+    background-color: #006633;          
+    margin-bottom: 1.2rem;  
+}
+.viewprofileui-skills-interests .row-2 .details .details-row .details-column h6{
+    display: inline;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-left: 0.3rem;
+}

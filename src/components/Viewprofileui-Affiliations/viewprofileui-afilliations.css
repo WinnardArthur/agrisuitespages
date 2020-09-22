@@ -1,0 +1,91 @@
+.viewprofileui-afilliations{
+    border: 1px solid #ccc;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px lavender;
+    overflow-y: scroll;
+    height: 26rem;
+}
+.viewprofileui-afilliations .row-1{
+    border-bottom: 1px solid #006633;
+    color: #006633;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.viewprofileui-afilliations .row-2{
+    
+}
+.viewprofileui-afilliations .row-2 .sub-row{
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    box-shadow: 0 2px 3px lavender;
+}
+.viewprofileui-afilliations .row-2 .sub-row .imgContainer{
+    border: 1px solid gray;
+    margin-top: 0;
+    height: auto;
+    width: 10%;
+    padding: 0 0.2rem;
+}
+.viewprofileui-afilliations .row-2 .sub-row .imgContainer img{
+    width: 100%;
+    height: 100%;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description{
+    margin-left: 1rem;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description h5{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 0 0.5rem;
+    padding-right: 1.5rem;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description .row .link{
+    color: #006633;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description .row .view-btn{
+    text-decoration: none;
+    background-color: #006633;
+    color: white;
+    border-radius: 25px;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description .date{
+    font-size: 0.75rem;
+    color: black;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description .info{
+    font-size: 0.98rem;
+}
+.viewprofileui-afilliations .row-2 .sub-row .description .read-more{
+    color: #006633;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+}
+.viewprofileui-afilliations .see-more{
+    display: block;
+    text-decoration: none;
+    color: #006633;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.2rem;
+    box-shadow: 0 -3px 1px lavender;
+}
+.viewprofileui-afilliations .fa-caret-down{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}

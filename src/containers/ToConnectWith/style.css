@@ -1,0 +1,14 @@
+.to-connect-ui .content{
+    width: 80%;
+    margin: 0 auto
+}
+.to-connect-ui .content .body{
+    display: flex;
+    justify-content: space-between;
+}
+.to-connect-ui .content .main-content{
+    width: 70%;
+}
+.to-connect-ui .content .sidebar{
+    width: 28%;
+}

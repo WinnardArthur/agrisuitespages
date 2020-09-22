@@ -1,0 +1,71 @@
+.viewprofileui-about{
+    border: 1px solid #ccc;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px lavender;
+}
+.viewprofileui-about .row-1{
+    border-bottom: 1px solid #ccc;
+    color: #006633;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.viewprofileui-about .row-2{
+    display: flex;
+}
+.viewprofileui-about .row-2 .column-1{
+    width: 40%;
+    border-right: 1px solid #ccc;
+    color: #006633;
+    padding-bottom: 1rem;
+}
+.viewprofileui-about .row-2 .column-1 button{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    text-align: left;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    color: #006633;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+.viewprofileui-about .row-2 .column-1 button.active{
+    background-color: #ccc;
+}
+.viewprofileui-about .row-2 .column-2{
+    width: 60%;
+    padding: 0.8rem;
+}
+.about-work-experience{
+    height: 9.3rem;
+    overflow-y: scroll;
+}
+.about-work-experience .row{
+    display: flex;
+    align-items: flex-start;
+}
+.about-work-experience .row .fa-facebook{
+    color: #006633;
+    font-size: 1.5rem;
+    margin: 0 1rem 0 0.5rem;
+}
+.about-work-experience .row .details h4{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.about-work-experience .row .details .group-name{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-size: 0.93rem;
+    margin: 0.3rem 0 0.2rem;
+    display: block;
+}
+.about-work-experience .row .details p{
+    font-size: 0.9rem;
+}

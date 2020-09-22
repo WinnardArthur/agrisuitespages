@@ -1,0 +1,195 @@
+.viewprofileui-sidebar{
+    width: 100%;
+    margin-top: 5.94rem;
+}
+.viewprofileui-sidebar .view-digital-tools{
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px #ccc;
+}
+.viewprofileui-sidebar .title{
+    padding: 0.2rem 1rem;
+    color: rgb(100, 100, 100);
+    font-weight: 500;
+}
+.viewprofileui-sidebar .view-digital-tools .icons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0 1rem 2rem;
+}
+.viewprofileui-sidebar .view-digital-tools .icons .icon{
+    font-size: 2.5rem;
+    width: 30%;
+    color: #006633;
+}
+.viewprofileui-sidebar .view-digital-tools img{
+    width: 100%;
+    height: 7rem;
+    margin-top: 1rem;
+    margin-bottom: -0.2rem;
+}
+.viewprofileui-sidebar .recommended-pages{
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px #ccc;
+    margin-top: 2rem;
+}
+.viewprofileui-sidebar .recommended-pages .content{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.1rem 0rem 0 1rem ;
+}
+.viewprofileui-sidebar .recommended-pages .content .img{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+}
+.viewprofileui-sidebar .recommended-pages .category{
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    color: rgb(100, 100, 100);
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+.viewprofileui-sidebar .recommended-pages h4{
+    font-weight: 400;
+}
+.viewprofileui-sidebar .recommended-pages p{
+    font-size: 0.9rem;
+}
+.viewprofileui-sidebar .recommended-pages .follow-btn{
+    background-color: #006633;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    border-radius: 2px;
+}
+.viewprofileui-sidebar .recommended-pages .view-all{
+    border: 2px solid #006633;
+    color: #006633;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 1.5rem auto 0.5rem;
+    width: 90%;
+    display: block;
+}
+.viewprofileui-sidebar .recommended-pages .view-all:hover{
+    background-color: #006633;
+    color: #fff;
+}
+.viewprofileui-sidebar .see-jobs-adds{
+    width: 100%;
+    padding: 1rem 1rem 0;
+    position: relative;
+    height: 15rem;
+    margin-top: 2rem;
+    border: 1px solid lavender;
+    box-shadow: 0 0 3px #ccc;
+}
+.viewprofileui-sidebar .see-jobs-adds > div{
+    width: 50%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.viewprofileui-sidebar .see-jobs-adds img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.viewprofileui-sidebar .see-jobs-adds h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: white;
+    text-shadow: 0 0 10px gray;
+}
+.viewprofileui-sidebar .see-jobs{
+    background-color: rgba(11, 11, 216, 0.8);
+    color: white;
+    padding: 0.5rem 1.3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.viewprofileui-sidebar .cards{
+    margin-bottom: 20px;
+}
+.viewprofileui-sidebar .cards .card-1{
+    width: 100%;
+    padding-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px  lavender;
+    background-color: white;
+    margin-top: 2rem;
+}
+.viewprofileui-sidebar .cards .card-1 img{
+    width: 100%;
+    height: 10rem;
+}
+.viewprofileui-sidebar .cards .card-1 img:hover{
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
+.viewprofileui-sidebar .cards .card-1 h3{
+    text-transform: capitalize;
+    font-size: 0.92rem;
+}
+.viewprofileui-sidebar .cards .card-1:hover{
+    -webkit-transform: scale(1.01) translateY(-5px);
+    -moz-transform: scale(1.01) translateY(-5px);
+    -o-transform: scale(1.01) translateY(-5px);
+    -ms-transform: scale(1.01) translateY(-5px);
+    transform: scale(1.01) translateY(-5px);
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.viewprofileui-sidebar .cards .thick-hyphen{
+    width: 65%;
+    height: 12px;
+    background: #006633;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.viewprofileui-sidebar .cards .elements{
+    padding: 10px 15px 0 15px;
+}
+.viewprofileui-sidebar .cards .hyphens{
+    display: flex;
+    margin-left: -10px;
+}
+.viewprofileui-sidebar .cards .hyphen{
+    width: 20px;
+    height: 2.3px;
+    margin: 10px;
+    background: #006633;
+}
+.viewprofileui-sidebar .cards .elements p{
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+.viewprofileui-sidebar .cards a{
+    background: #006633;
+    color: white;
+    padding: 6px 12px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 2px;
+}
+

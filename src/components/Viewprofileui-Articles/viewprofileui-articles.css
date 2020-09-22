@@ -1,0 +1,71 @@
+.viewprofileui-articles{
+    border: 1px solid #ccc;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px lavender;
+}
+.viewprofileui-articles .row-1{
+    border-bottom: 1px solid #006633;
+    color: #006633;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.viewprofileui-articles .row-2{
+    padding: 0 0.5rem;
+}
+.viewprofileui-articles .row-2 .items{
+    padding: 1rem 1.6rem 1rem 1.3rem;
+}
+.viewprofileui-articles .row-2 .items .item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.viewprofileui-articles .row-2 .items .item img{
+    position: relative;
+    z-index: 1;
+    width: 10rem;
+    height: 9.6rem;
+    box-shadow: 6px 8px 5px gray;
+    align-self: center;
+}
+.viewprofileui-articles .row-2 .items .item .sub-item{
+    display: flex;
+    width: 48.5%;
+    margin-bottom: 2rem;
+}
+.viewprofileui-articles .row-2 .items .item .sub-item .card{
+    border: 2px solid #006633;
+    margin-left: -1.8rem;
+    padding-left: 2rem;
+}
+.viewprofileui-articles .row-2 .items .item .sub-item h3{
+    color: #006633;
+    text-transform: capitalize;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.viewprofileui-articles .row-2 .items .item p{
+    color: #006633;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    margin-top: 0.2rem;
+    font-style: italic;
+}
+.viewprofileui-articles .row-2 .items .item .card-footer{
+    text-align: right;
+    padding: 0.7rem 0.2rem;
+    margin: 0.2rem 3% 0;
+}
+.viewprofileui-articles .row-2 .items .item .card-footer .view-more-btn{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: #006633;
+    padding: 0.3rem 0.5rem;
+    border-radius: 25px;
+}
