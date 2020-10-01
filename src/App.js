@@ -10,7 +10,10 @@ import ViewGroup from './containers/ViewGroup';
 import PagesDisplay from './containers/PagesDisplay';
 import ConnectedProfile from './containers/ConnectedProfile';
 import OwlProfile from './containers/OwnProfile';
-import ToConnectWith from './containers/ToConnectWith'
+import ToConnectWith from './containers/ToConnectWith';
+import SettingDashboard from './containers/SettingDashboard';
+import SettingDashboardNotifications from './containers/SettingDashboardNotificationsPage';
+import SettingDashboardPrivacy from './containers/SettingDashboardPrivacyPage';
 
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
         <Route path="/connected-profile" component={ConnectedProfile} exact/>
         <Route path="/own-profile" component={OwlProfile} />
         <Route path="/to-connect-with" component={ToConnectWith} />
+        <Route path="/setting-dashboard" component={SettingDashboard} />
+        <Route path="/setting-dashboard-notifications" component={SettingDashboardNotifications} />
+        <Route path="/setting-dashboard-privacy" component={SettingDashboardPrivacy} />
       </div>
     </Router>
   );

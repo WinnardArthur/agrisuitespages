@@ -1,0 +1,50 @@
+.setting-dashboard-notification-page{
+    padding-top: 1rem;
+}
+.setting-dashboard-notification-page .header-section{
+    width: 100%;
+    background: linear-gradient(rgba(0,80,0,0.4), rgba(0,80,0,0.4)), url(https://www.clker.com/cliparts/8/2/3/3/13787630241442306059cogs.svg.hi.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+}
+.setting-dashboard-notification-page .header-section h1{
+    color: white;
+    font-weight: 500;
+    z-index: 1;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    line-height: 10rem;
+}
+.setting-dashboard-notification-page .body-section{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.setting-dashboard-notification-page .body-section .column-1{
+    width: 13%;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #ccc;
+    text-align: center;
+    padding: 1rem 0;
+}
+.setting-dashboard-notification-page .body-section .column-2{
+    width: 70%;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+.setting-dashboard-notification-page .body-section .setting-link{
+    color: black;
+    text-decoration: none;
+    margin: 1.2rem 0;
+    display: block;
+}
+.setting-dashboard-notification-page .body-section .setting-link .fa{
+    font-size: 2.5rem;
+}
+.setting-dashboard-notification-page .body-section .setting-link h4{
+    color: #006633;
+    text-transform: capitalize;
+    font-weight: 600;
+}
