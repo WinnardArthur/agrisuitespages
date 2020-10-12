@@ -1,0 +1,108 @@
+.agrimedia-log{
+    border: 1px solid gray;
+}
+.agrimedia-log .row-1{
+    border-bottom: 1px solid gray;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.18rem;
+}
+.agrimedia-log .row-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.8rem 0.6rem 2rem 0.6rem;
+}
+.agrimedia-log .row-2 .card{
+    border: 1px solid gray;
+    width: 18%;
+    margin: 0.8rem 0.5rem;
+    box-shadow: 2px 2px 3px #ccc;
+    position: relative;
+}
+.agrimedia-log .row-2 .card .card-header{
+    background-color: #006633;
+    color: white;
+    padding: 0.2rem 0.7rem 0.2rem;
+}
+.agrimedia-log .row-2 .card .card-header h5{
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    letter-spacing: 0.12rem;
+}
+.agrimedia .row-2 .card .card-header p{
+    color: white;
+    font-size: 0.62rem;
+    letter-spacing: 0.01rem;
+}
+.agrimedia .row-2 .card .card-body{
+    margin-bottom: 1.5rem;
+}
+.agrimedia .row-2 .card .card-body h1{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.agrimedia .row-2 .card .card-body .fa{
+    color: #006633;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+.agrimedia .row-2 .card .card-body p{
+    font-size: 0.6rem;
+    color: black;
+    padding-left: 8%;
+    padding-right: 2%;
+    font-weight: 500;
+    margin: 0.2rem 0;
+}
+.agrimedia .row-2 .card .card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 8%;
+    padding-right: 2%;
+    padding-bottom: 0.15rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.agrimedia-log .row-2 .card .card-footer p{
+    color: black;
+    font-size: 0.7rem;
+}
+.agrimedia-log .row-2 .card .card-footer .view-all-btn{
+    color: #006633;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+@media only screen and (max-width: 600px){
+    .agrimedia-log .row-1{
+        padding: 0.3rem 0.5rem;
+        font-size: 1.2rem;
+    }
+    .agrimedia-log .row-2{
+        padding: 1rem 0.6rem 2rem 0.6rem;
+    }
+    .agrimedia-log .row-2 .card{
+        width: 100%;
+        margin: 0.8rem 0.5rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .agrimedia-log .row-2 .card{
+        width: 45%;
+        margin: 0.8rem 0.5rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1250px){
+    .agrimedia-log .row-2{
+        justify-content: flex-start;
+    }
+    .agrimedia-log .row-2 .card{
+        width: 30%;
+        margin: 0.8rem 0.5rem;
+    }
+}

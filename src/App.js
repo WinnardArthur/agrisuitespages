@@ -14,6 +14,12 @@ import ToConnectWith from './containers/ToConnectWith';
 import SettingDashboard from './containers/SettingDashboard';
 import SettingDashboardNotifications from './containers/SettingDashboardNotificationsPage';
 import SettingDashboardPrivacy from './containers/SettingDashboardPrivacyPage';
+import UserDashboard from './containers/UserDashboard';
+import AgriMedia from './containers/AgriMedia';
+import PageName from './containers/PageName';
+import FarmTv from './containers/FarmTv';
+import Agriscore from './containers/Agriscore'
+import Advertisement from './containers/Advertisement';
 
 
 function App() {
@@ -33,6 +39,12 @@ function App() {
         <Route path="/setting-dashboard" component={SettingDashboard} />
         <Route path="/setting-dashboard-notifications" component={SettingDashboardNotifications} />
         <Route path="/setting-dashboard-privacy" component={SettingDashboardPrivacy} />
+        <Route path="/user-dashboard" component={UserDashboard} />
+        <Route path="/agrimedia" component={AgriMedia} />
+        <Route path="/pagename" component={PageName} />
+        <Route path="/farm-tv" component={FarmTv} />
+        <Route path="/agriscore" component={Agriscore} />
+        <Route path="/advertisement" component={Advertisement} />
       </div>
     </Router>
   );

@@ -1,0 +1,65 @@
+.activity-panel{
+    background-color: rgba(220, 220, 220, 0.5);
+    padding: 2rem 1rem 2rem;
+}
+.activity-panel .box{
+    border: 1px solid #006633;
+    border-radius: 7px;
+    text-align: center;
+    padding: 0.4rem 0.2rem 0.2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.activity-panel .box:last-child{
+    margin-bottom: 0;
+}
+.activity-panel .box .icon{
+    color: #006633;
+    display: block;
+    font-size: 1.8rem;
+}
+.activity-panel .link{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.activity-panel .active{
+    background-color: #006633;
+}
+.activity-panel .active .icon{
+    color: white;
+}
+.activity-panel .active .link{
+    color: white
+}
+@media only screen and (max-width: 600px){
+    .activity-panel{
+        padding: 1rem 0.2rem 1rem;
+    }
+    .activity-panel .box{
+        padding: 0.4rem 0.2rem 0.2rem;
+        margin-bottom: 1rem;
+    }
+    .activity-panel .box .icon{
+        font-size: 1rem;
+    }
+    .activity-panel .link{
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1250px){
+    .activity-panel{
+        padding: 1rem 0.2rem 1rem;
+    }
+    .activity-panel .box{
+        padding: 0.4rem 0.2rem 0.2rem;
+        margin-bottom: 1rem;
+    }
+    .activity-panel .box .icon{
+        font-size: 1.5rem;
+    }
+    .activity-panel .link{
+        font-size: 0.9rem;
+    }
+}

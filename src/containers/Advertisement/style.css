@@ -1,0 +1,70 @@
+
+.advertisement .content{
+    display: flex;
+    padding: 1.5rem 0 0 2rem;
+}
+.advertisement .column-1{
+    width: 12%;
+}
+.advertisement .column-2{
+    width: 72%;
+    margin-left: 1rem;
+}
+.advertisement .column-2 .notice h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #006633;
+    text-transform: capitalize;
+    height: 50vh;
+    animation: notice 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes notice{
+    0%{
+        text-shadow: -100px 0px 150px #006633;
+    }
+    50%{
+        text-shadow: 0px 0px 0px #006633;
+    }
+    100%{
+        text-shadow: 100px 0px 150px #006633;
+    }
+}
+@media only screen and (max-width: 600px){
+    .advertisement .content{
+        padding: 1rem 0 0 0.5rem;
+    }
+    .advertisement .column-1{
+        width: 25%;
+    }
+    .advertisement .column-2{
+        width: 68%;
+        height: 10rem;
+        margin-left: 0.7rem;
+    }
+    .advertisement .column-2 .notice h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1020px){
+    .advertisement .content{
+        padding: 1rem 0 0 1.5rem;
+    }
+    .advertisement .column-1{
+        width: 20%;
+    }
+    .advertisement .column-2{
+        width: 70%;
+        height: 10rem;
+        margin-left: 1rem;
+    }
+    .advertisement .column-2 .notice{
+        color: red;
+    }
+    .advertisement .column-2 .notice h1{
+        font-size: 4rem;
+    }
+}

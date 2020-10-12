@@ -1,0 +1,39 @@
+
+.agrimedia .content{
+    display: flex;
+    padding: 1.5rem 0 0 2rem;
+}
+.agrimedia .column-1{
+    width: 12%;
+}
+.agrimedia .column-2{
+    width: 72%;
+    height: 10rem;
+    margin-left: 1rem;
+}
+@media only screen and (max-width: 600px){
+    .agrimedia .content{
+        padding: 1rem 0 0 0.5rem;
+    }
+    .agrimedia .column-1{
+        width: 25%;
+    }
+    .agrimedia .column-2{
+        width: 68%;
+        height: 10rem;
+        margin-left: 0.7rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1020px){
+    .agrimedia .content{
+        padding: 1rem 0 0 1.5rem;
+    }
+    .agrimedia .column-1{
+        width: 20%;
+    }
+    .agrimedia .column-2{
+        width: 70%;
+        height: 10rem;
+        margin-left: 1rem;
+    }
+}
